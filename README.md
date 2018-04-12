@@ -1,3 +1,3 @@
-# https://iaoc.github.io/Edivaldo/
+# http://iAoc.github.io
 My Personal
 
