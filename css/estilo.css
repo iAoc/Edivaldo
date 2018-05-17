@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.body{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.opcoes-celulares a:hover{
+    color: red;
+}
+.opcoes-celulares a:active{
+    color: red;
+}
+.opcoes-celulares tr,td, a{
+    color: black;
+    font-size: 22px;
+    font-style: italic;
+    font-feature-settings: normal;
+    text-align: center;
+    padding-top:  center;
+    
+}
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.vendas{
+    float: left;
+        background-color: #D3D3D3;
+}
+.mais-vendido{
+    float: right;
+        background-color: #dcdcf5;
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    margin-bottom: 10px;
+}
+
+.painel a{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
