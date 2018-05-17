@@ -39,8 +39,17 @@ time, mark, audio, video {
 }
 .painel{
     margin: 10px 0;
-    padding: 10px;
-    width: 445px;
+
+    padding: 100px;
+    padding-right: 100px;
+    padding-left: 100px;    
+    width: 650px;
+background-color: #D3D3D3;
+}
+.painel:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 .vendas{
     float: left;
@@ -54,22 +63,27 @@ time, mark, audio, video {
 .painel li{
     display: inline-block;
     vertical-align: top;
-    width: 140px;
-    
-    margin: 2px;
-    padding-bottom: 10px;
+    width: 100px;
+    background-color: #D3D3D3;
+    margin: 4px;
+    padding-top: 2px;
+    padding-left: 66px;
+text-align: center;
+    float: left;
+    width: 33.33%;
+   
 }
 
 .painel h2{
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    
+    background-color: #D3D3D3;
     margin-bottom: 10px;
 }
 
 .painel a{
-    color: #333;
+    background-color: #D3D3D3;
     font-size: 14px;
     text-align: center;
     text-decoration: none;
