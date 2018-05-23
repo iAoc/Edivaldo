@@ -46,48 +46,9 @@ time, mark, audio, video {
     width: 650px;
 background-color: #D3D3D3;
 }
-.painel:after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.vendas{
-    float: left;
-        background-color: #D3D3D3;
-}
-.mais-vendido{
-    float: right;
-        background-color: #dcdcf5;
-}
 
-.painel li{
-    display: inline-block;
-    vertical-align: top;
-    width: 100px;
-    background-color: #D3D3D3;
-    margin: 4px;
-    padding-top: 2px;
-    padding-left: 66px;
-text-align: center;
-    float: left;
-    width: 33.33%;
-   
-}
 
-.painel h2{
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #D3D3D3;
-    margin-bottom: 10px;
-}
 
-.painel a{
-    background-color: #D3D3D3;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
-}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -177,46 +138,9 @@ header nav ul li a:hover {
 	color: green;
 }
 
-/* Home Featue */
-section#feature {
-	width: 100%;
-	height: 300px;
-	background: url('../img/layout-index.jpg') no-repeat;
-	box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
-	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
-	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
-	-o-box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
-	border-bottom: 1px solid white;
-	margin-bottom: 1em;
-	color: white;
-	text-align: center;
-	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-webkit-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-}
 
-section#feature h1 {
-	font-size: 3.5em;
-	font-weight: bold;
-	padding-top: 1.8em;
-	font-family: Georgia;
-}
 
-section#feature h2 {
-	padding-top: 0.5em;
-	font-size: 1.2em;
-	font-family: Georgia;
-	font-style: italic;
-}
 
-section#feature h2:before,
-section#feature h2:after {
-	padding: 0 0.3em;
-	content: '~';
-}
-
-/* Page Text */
 section#page-text {
 	padding: 30px;
 	font-size: 0.9em;
@@ -229,7 +153,6 @@ section#page-text {
 	text-align: center;
 }
 
-/* Clearfix Hack */
 section#page-text:before, section#page-text:after { content: ""; display: table; }
 section#page-text:after { clear: both; }
 section#page-text { *zoom: 1; }
@@ -356,73 +279,13 @@ section#cel7 img{
 	max-width: 100%;
 }
 
-table#pizzas,
-table#garlic-bread {
-	margin-bottom: 5em;
-}
 
-table#pizzas,
-table#garlic-bread,
-table#sides {
-	width: 100%;
-}
-
-table#pizzas thead th,
-table#garlic-bread thead th,
-table#sides thead th {
-	padding: 5px;
-	text-align: left;
-	font-style: italic;
-}
-
-table#pizzas tbody th,
-table#garlic-bread tbody th,
-table#sides tbody th {
-	padding: 5px;
-	text-align: left;
-	font-weight: bold;
-}
-
-table#pizzas td,
-table#garlic-bread td,
-table#sides td {
-	padding: 5px;
-	text-align: left;
-}
-
-table#pizzas tr td:first-child,
-table#garlic-bread tr td:first-child,
-table#sides tr td:first-child {
-	font-weight: bold;
-}
-
-table#pizzas tr td:nth-child(3),
-table#garlic-bread tr td:nth-child(2),
-table#sides tr td:nth-child(2) {
-	font-weight: bold;
-	width: 50px;
-}
 
 table caption {
 	text-align: left;
 	padding-left: 5px;
 	margin-bottom: 1em;
 }
-
-ul#sitemap {
-	text-align: left;
-	list-style: disc;
-	padding-left: 20px;
-}
-
-ul#sitemap a {
-	color: #08C;
-}
-
-ul#sitemap li {
-	padding: 0.5em 0;
-}
-
 section#page-text dl {
 	margin: 0;
 	padding: 0;
@@ -436,8 +299,6 @@ section#page-text dt {
 section#page-text dd {
 	padding: 0.3em 0;
 }
-
-/* Home Text */
 section#home-text {
 	float: left;
 	width: 542px;
@@ -462,226 +323,6 @@ section#page-text p {
 	margin: 0.8em 0 0;
 	text-align: justify;
 }
-
-section#offers {
-	color: white;
-	width: 342px;
-	padding: 15px;
-	margin-left: 588px;;
-	background: red;
-	box-shadow: 0 0 10px rgba(0,0,0,0.6) inset;
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6) inset;
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6) inset;
-	-o-box-shadow: 0 0 10px rgba(0,0,0,0.6) inset;
-	border-bottom: 1px solid white;
-	font-size: 0.9em;
-	line-height: 1.3em;
-}
-
-section#offers ul li {
-	padding: 0.5em 0;
-}
-
-section#contact h1,
-section#offers h1 {
-	font-weight: bold;
-	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-webkit-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-moz-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-	-o-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-}
-
-section#contact p,
-section#offers p {
-	line-height: 1.4em;
-	margin: 0.5em 0 0;
-	text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-	-webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-	-moz-text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-	-o-text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-}
-
-div#formButton {
-	float: right;
-	margin-top: 15px;
-	width: 372px;
-}
-
-div#formButton a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 15px;
-	border: 1px solid white;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	background-image: linear-gradient(bottom, rgb(0,148,30) 20%, rgb(6,189,43) 80%);
-	background-image: -o-linear-gradient(bottom, rgb(0,148,30) 20%, rgb(6,189,43) 80%);
-	background-image: -moz-linear-gradient(bottom, rgb(0,148,30) 20%, rgb(6,189,43) 80%);
-	background-image: -webkit-linear-gradient(bottom, rgb(0,148,30) 20%, rgb(6,189,43) 80%);
-	background-image: -ms-linear-gradient(bottom, rgb(0,148,30) 20%, rgb(6,189,43) 80%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.2, rgb(0,148,30)),
-		color-stop(0.8, rgb(6,189,43))
-	);
-}
-
-div#formButton a:hover {
-	text-decoration: none;
-	background-image: linear-gradient(bottom, rgb(5,125,29) 20%, rgb(0,148,30) 80%);
-	background-image: -o-linear-gradient(bottom, rgb(5,125,29) 20%, rgb(0,148,30) 80%);
-	background-image: -moz-linear-gradient(bottom, rgb(5,125,29) 20%, rgb(0,148,30) 80%);
-	background-image: -webkit-linear-gradient(bottom, rgb(5,125,29) 20%, rgb(0,148,30) 80%);
-	background-image: -ms-linear-gradient(bottom, rgb(5,125,29) 20%, rgb(0,148,30) 80%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.2, rgb(5,125,29)),
-		color-stop(0.8, rgb(0,148,30))
-	);
-}
-
-div.field {
-	line-height: 1.4em;
-	margin: 0.8em 0 0;
-	text-align: justify;
-}
-
-form label {
-	width: 320px;
-	display: inline-block;
-	vertical-align: top;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
-form input[type="number"],
-form input[type="datetime-local"] {
-	width: 180px;
-	border: 1px solid #999;
-	padding: 3px;
-}
-
-form select {
-	width: 180px;
-}
-
-form span.required {
-	color: red;
-	font-size: 0.8em;
-}
-
-form p.validation-tip {
-	color: #FF0000;
-}
-
-form fieldset {
-	margin: 1em 0;
-	padding: 1em;
-	border: 1px solid #999;
-}
-
-/* Video */
-
-#video {
-	float: left;
-	width: 400px;
-	min-height: 225px;
-	margin-right: 25px;
-}
-
-#video-controls {
-	background: #D9D9D9;
-	border-radius: 5px;
-	padding: 5px;
-	margin-top: 10px;
-	text-align: left;
-}
-
-#playBtn,
-#pauseBtn,
-#muteBtn {
-	background: #636363;
-	color: white;
-	border: 0;
-	border-radius: 3px;
-}
-
-#playBtn:hover,
-#pauseBtn:hover,
-#muteBtn:hover {
-	background: #BABABA;
-	cursor: pointer;
-}
-
-#playBtn:active,
-#pauseBtn:active,
-#muteBtn:active {
-	background: #A1A1A1;
-	cursor: pointer;
-}
-
-#video-controls label {
-	font-size: 0.9em;
-}
-
-#seekBar {
-	width: 270px;
-  -webkit-appearance: none !important;
-  background: #BABABA;
-  height:7px;
-}
-
-#seekBar::-webkit-slider-thumb {
-    -webkit-appearance: none !important;
-    background:#636363;
-    border-radius: 5px;
-    height:10px;
-    width:10px;
-}
-
-#volume {
-	-webkit-appearance: none !important;
-  background: #BABABA;
-  height:7px;
-}
-
-#volume::-webkit-slider-thumb {
-    -webkit-appearance: none !important;
-    background:#636363;
-    border-radius: 5px;
-    height:10px;
-    width:10px;
-}
-
-
-footer {
-	text-align: center;
-	font-size: 0.7em;
-	border-top: 1px dotted black;
-	padding-top: 1em;
-	margin: 1em;
-	clear: both;
-}
-
-footer a,
-footer a:visited {
-	color: #636363;
-}
-
-footer a:hover,
-footer a:focus {
-	color: green;
-}
 section#cel1.nearest,
 section#cel2.nearest,
 section#cel3.nearest,
@@ -699,4 +340,8 @@ section#cel7.nearest{
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; 
+}
+
+.imagem{
+    text-align: center;
 }
