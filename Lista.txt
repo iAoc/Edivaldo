@@ -1,0 +1,80 @@
+Nome: Edivaldo José dos Santos RA: 00019665
+
+Lista relacionado ao trabalho.
+
+HTML5
+
+Index.html - 
+
+Linha 8 até 42 - Body
+Linha 9 até 26 - Figcaption
+Linha 10 até 25 - Table class = opcoes-celulares
+Linha 11 até 24 - th 
+Linha 12 até 14 - Link interno
+Linha 15 até 17 - Link interno
+Linha 18 até 20 - Link interno
+Linha 21 até 23 - Link interno
+Linha 27 até 35 - Div class = pesquisas
+Linha 28 até 31 - form para pesquisas
+Linha 32 até 34 - nav class = imagem - Logo
+Linha 36 até 40  - div class = footer
+Linha 37 até 39 - footer
+
+Apple.html - 
+
+Linha 7 até 79 - body
+Linha 9 até 17 - div id = container = Logo ( ~ Marca ~ )
+Linha 18 até 71 - section page-text = edição de paginas
+Linha 21 até 26 - section celular 1 
+Linha 28 até 33 - section celular 2
+Linha 35 até 40 - section celular 3
+Linha 43 até 48 - section celular 4
+Linha 50 até 55 - section celular 5
+Linha 57 até 62 - section celular 6
+Linha 64 até 69 - section celular 7
+Linha 73 até 77  - div class = footer
+Linha 74 até 76 - footer
+
+samsung.html - 
+
+Linha 8 até 80 - body
+Linha 9 até 73 - div id = container = Logo ( ~ Marca ~ )
+Linha 19 até 72 - section page-text = edição de paginas
+Linha 22 até 27 - section celular 1 
+Linha 29 até 34 - section celular 2
+Linha 36 até 41 - section celular 3
+Linha 44 até 49 - section celular 4
+Linha 51 até 56 - section celular 5
+Linha 58 até 63 - section celular 6
+Linha 65 até 70 - section celular 7
+Linha 74 até 78  - div class = footer
+Linha 75 até 77 - footer
+
+nokia.html - 
+
+Linha 7 até 72 - body
+Linha 8 até 71- div id = container = Logo ( ~ Marca ~ )
+Linha 18 até 64 - section page-text = edição de paginas
+Linha 21 até 26 - section celular 1 
+Linha 28 até 33 - section celular 2
+Linha 35 até 40 - section celular 3
+Linha 43 até 48 - section celular 4
+Linha 50 até 55 - section celular 5
+Linha 57 até 62 - section celular 6
+Linha 74 até 78  - div class = footer
+Linha 75 até 77 - footer
+
+nokia.html - 
+
+Linha 7 até 72 - body
+Linha 8 até 71- div id = container = Logo ( ~ Marca ~ )
+Linha 18 até 64 - section page-text = edição de paginas
+Linha 21 até 26 - section celular 1 
+Linha 28 até 33 - section celular 2
+Linha 35 até 40 - section celular 3
+Linha 43 até 48 - section celular 4
+Linha 50 até 55 - section celular 5
+Linha 57 até 62 - section celular 6
+Linha 74 até 78  - div class = footer
+Linha 75 até 77 - footer
+
