@@ -342,6 +342,30 @@ section#cel7.nearest{
 .clearfix { *zoom: 1; 
 }
 
+
+.pesquisas > imagem {
+    display: flex;
+   
+}
+.pesquisas{
+    padding-top: 1px;
+    padding-right: 10px;
+    text-align: right;
+     
+}
 .imagem{
     text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.form{
+    margin-right: 25px;
+}
+.button{
+    margin-left: -4px;
+    background-color: RED;
+}
+.footer{
+ text-align: center;
+    padding-top: 24px;
 }
