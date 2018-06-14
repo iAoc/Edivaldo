@@ -102,8 +102,9 @@ a:focus {
 }
 
 header div#logo {
-	float: left;
-	color: white;
+	
+	text-align: center; 
+	color: black;
 	padding-top: 0.9em;
 	font-size: 2em;
 	font-style: italic;
@@ -368,4 +369,13 @@ section#cel7.nearest{
 .footer{
  text-align: center;
     padding-top: 24px;
+}
+.retorna{
+	float: left;
+	color: black;
+	padding-top: 0.9em;
+	padding-left: 21px;
+	font-size: 2em;
+	font-style: italic;
+	font-family: Georgia;
 }
