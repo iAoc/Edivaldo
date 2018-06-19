@@ -344,12 +344,9 @@ section#cel7.nearest{
 }
 
 
-.pesquisas > imagem {
-    display: flex;
-   
-}
+
 .pesquisas{
-    padding-top: 1px;
+    padding-top: 0px;
     padding-right: 10px;
     text-align: right;
      
@@ -357,7 +354,7 @@ section#cel7.nearest{
 .imagem{
     text-align: center;
     margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 2px;
 }
 .form{
     margin-right: 25px;
@@ -368,7 +365,7 @@ section#cel7.nearest{
 }
 .footer{
  text-align: center;
-    padding-top: 24px;
+    padding-top: 0px;
 }
 .retorna{
 	float: left;
@@ -378,4 +375,16 @@ section#cel7.nearest{
 	font-size: 2em;
 	font-style: italic;
 	font-family: Georgia;
+}
+.contador{
+    text-align:right; 
+	color: black;
+    padding-right: 22px;    
+	font-size: 1px;
+	font-style: italic;
+	font-family: Georgia;
+    
+}
+.propaganda{
+
 }

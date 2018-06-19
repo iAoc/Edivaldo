@@ -34,36 +34,44 @@ document.cookie = escape(nome) + "=" + escape(valor) + "; expires=" + expires;
 </th>
         </table> 
         </figcaption>
-    <div class="pesquisas">
+ 
+    <nav class="imagem">
+<img src="img/venda%20de%20celular%20layout.png" >
+        </nav>
+       <div class="pesquisas">
     <form action="/" method="get" >
     <input type="text" placeholder="Localizar um celular"autocomplete="off" required="">
     <button type="submit" value="search">Pesquisa</button>   
   </form>
-   
-    <nav class="imagem">
-<img src="img/venda%20de%20celular%20layout.png" >
-        </nav>
-     </div>
+    </div>
+     
     <div class="footer">
         <footer>
 			<small>&copy; 2012-2018 Vendas de Celulares Cop. All Rights Reserved</small>
 		</footer>
     </div>
-<div class="contador"> </div>
+<div class="contador"> 
  <script language="javascript">
 if (!document.cookie){
 setCookie("cookie", "1", 365);
-document.write("<font face='verdana' size='1'> Contador de Visita: 1</font>");
+document.write("<font face='verdana' size='3'> Contador de Visita: 1</font>");
 } else {
 var cont = document.cookie;
 var dividindo = cont.split("=");
 //document.write(dividindo[1]);
 var numero = parseInt(dividindo[1]);
 var soma = numero + 1;
-document.write("<font face='verdana' size='1'>Contador de Visita: " + soma + "</font>");
+document.write("<font face='verdana' size='3'>Contador de Visita: " + soma + "</font>");
 setCookie("cookie", soma, 365);
 }
 </script>
 </div>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1786912942033929",
+    enable_page_level_ads: true
+  });
+</script>
 </body>
 </html>
