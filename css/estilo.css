@@ -155,13 +155,13 @@ section#page-text {
 	text-align: center;
 }
 
-section#page-text:before, section#page-text:after { content: ""; display: table; }
+section#page-text:before, section#page-text:after { content: "~"; display: table; }
 section#page-text:after { clear: both; }
 section#page-text { *zoom: 1; }
 
-#container > div:before, #container > div:after { content: ""; display: table; }
+#container > div:before, #container > div:after { content: "~"; display: table; }
 #container > div:after { clear: both; }
-#container > div { *zoom: 1; }
+#container > div { *zoom: 2; }
 
 section#page-text > h1 {
 	text-align: center;
@@ -387,7 +387,7 @@ section#cel7.nearest{
     
 }
 .propaganda{
-
+text-align: center;
 }
 
 section#cel1 img:hover,
@@ -402,4 +402,18 @@ section#cel7 img:hover{
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(2.3);
+}
+
+section#page-prop >h1{
+    font-family: Arial;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+section#page-prop > h1:before,
+section#page-prop > h1:after {
+	content: '~';
+	padding: 0 0.4em;
+	color: #BABABA;
+    
 }

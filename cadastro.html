@@ -8,23 +8,25 @@
 function funcao1(){
 alert("Comprado com Sucesso!");
 }
+function cancela(){
+alert("Pedido cancelado!");
+}
 </script>
     <style>
         input{
-            border: 0;
-            border-radius: 4px;
-            background: #808080;
             cursor: pointer;
-            color: white;
+            color: black;  
+            
         }
-        input:hover{           
+        input:hover{       
+            color: black;
         }
         ipunt:active{
             position: relative;
             top: 10px;
-            box-shadow: inset 1px 1px 10px 1px blue;
-            color: white;
-            background: white;
+            box-shadow: inset 4px 4px 10px 4px black;
+            color: black;
+            background: black;
         }
     </style>
     
@@ -33,10 +35,10 @@ alert("Comprado com Sucesso!");
    <form>
        <legend>CONCLUSÃO DE PEDIDO</legend>
     <fieldset id="identificao"> <legend> IDENTIFICAÇÃO DO COMPRADOR</legend>
-<p>NOME:<input type="text" name="nome" size="50" maxlength="50" placeholder="Nome.."/></p>
+<p>NOME:<input type="text" name="nome"  size="50" maxlength="50" placeholder="Nome.."/></p>
 <p>E-MAIL: <input type="email" name="email" size="50" maxlength="50" placeholder="Endereço de e-mail.."/></p>
         
-        <p>DATA DE NASCIMENTO: <input type="date" name"date"/></p>
+        <p>DATA DE NASCIMENTO: <input type="date" name"tData"/></p>
        </fieldset>
     <fieldset id="endereco"><legend>ENDEREÇO DA ENTREGA:</legend>
         <p>LOGRADOURO:<input type="text" name="logradouro" size="13" maxlength="13"/> </p>
@@ -97,7 +99,11 @@ alert("Comprado com Sucesso!");
       
        <legend>CÓDIGO DE CARTÃO: <input type="text" name="codigo" placeholder="" size="3" maxlength="3"/>     </legend> 
        </fieldset> 
-         <a href="index.html"><input type="button" onclick="funcao1()" value="Concluir pedido" /></a>
+         <a href="index.html"><input type="button" value="Concluir pedido" onclick="funcao1()"  /></a>
+       
+       <a href="index.html"><input type="button" value="Cancelar pedido" onclick="cancela()"  /></a>
+       
+      
     </form> 
     
     
