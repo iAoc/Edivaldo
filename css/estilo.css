@@ -388,3 +388,18 @@ section#cel7.nearest{
 .propaganda{
 
 }
+
+section#cel1 img:hover,
+section#cel2 img:hover,
+section#cel3 img:hover,
+section#cel4 img:hover,
+section#cel5 img:hover,
+section#cel6 img:hover,
+section#cel7 img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(2.3);
+}
+

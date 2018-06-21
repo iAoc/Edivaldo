@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pedido</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/form.css"/>
+    <script>
+function funcao1(){
+alert("Comprado com Sucesso!");
+}
+</script>
+    <style>
+        input{
+            border: 0;
+            border-radius: 4px;
+            background: #808080;
+            cursor: pointer;
+            color: white;
+        }
+        input:hover{           
+        }
+        ipunt:active{
+            position: relative;
+            top: 10px;
+            box-shadow: inset 1px 1px 10px 1px blue;
+            color: white;
+            background: white;
+        }
+    </style>
+    
+</head>
+<body>
+   <form>
+       <legend>CONCLUSÃO DE PEDIDO</legend>
+    <fieldset id="identificao"> <legend> IDENTIFICAÇÃO DO COMPRADOR</legend>
+<p>NOME:<input type="text" name="nome" size="50" maxlength="50" placeholder="Nome.."/></p>
+<p>E-MAIL: <input type="email" name="email" size="50" maxlength="50" placeholder="Endereço de e-mail.."/></p>
+        
+        <p>DATA DE NASCIMENTO: <input type="date" name"date"/></p>
+       </fieldset>
+    <fieldset id="endereco"><legend>ENDEREÇO DA ENTREGA:</legend>
+        <p>LOGRADOURO:<input type="text" name="logradouro" size="13" maxlength="13"/> </p>
+    <p>NUMERO:<input type="number" name="numero" min="0" max="1000"/> </p>
+    <p>ESTADO:
+        <select name="estado">            
+            <optgroup label="Região Sul">
+            <option> Paraná (PR)</option>           
+            <option> Rio Grande do Sul (RS)</option>
+            <option> Santa Catarina (SC)</option>
+            </optgroup>
+            
+            <optgroup label="Região Sudeste">
+            <option> Espírito Santo (ES)</option>
+            <option> Minas Gerais (MG)</option>            
+            <option> Rio de Janeiro (RJ)</option>
+            <option> São Paulo (SP)</option>    
+            </optgroup>
+            
+             <optgroup label="Região Centro-Oeste">
+            <option> Distrito Federal (DF)</option>
+            <option> Goiás (GO)</option>
+            <option> Mato Grosso (MT)</option>
+            <option> Mato Grosso do Sul (MS)</option>
+            </optgroup>
+            
+             <optgroup label="Região Nordeste">
+            <option> Alagoas (AL)</option>
+            <option> Bahia (BA)</option>
+            <option> Ceará (CE)</option>
+            <option> Maranhão (MA)</option>
+            <option> Paraíba (PB)</option>
+            <option> Pernambuco (PE)</option>
+            <option> Piauí (PI)</option>
+            <option> Rio Grande do Norte (RN)</option>
+            <option> Sergipe (SE)</option>
+            </optgroup>
+            
+            <optgroup label="Região Norte">
+            <option> Acre (AC)</option>            
+            <option> Amapá (AP)</option>
+            <option> Amazonas (AM) </option>
+            <option> Pará (PA)</option>
+            <option> Rondônia (RO)</option>
+            <option> Roraima (RR)</option>
+            <option> Tocatins (TO)</option>
+            </optgroup>            
+        </select> </p>
+        
+        <p>CIDADE:<input type="text" name="cidade" size="15" maxlength="15"/> </p>
+      </fieldset>
+     <fieldset id="pagamento"><legend>PAGAMENTO DO PRODUTO:</legend>
+    <input type="radio" name="cartao" id="visa"/> <label for="visa">Visa</label>
+<input type="radio" name="cartao" id="mastercard"/> <label for="mastercard">MasterCard</label>
+<input type="radio" name="cartao" id="itau"/> <label for="itau">Itaú</label>
+<input type="radio" name="cartao" id="santander"/> <label for="santander">Santander</label><br>
+<input type="text" name="cartao" placeholder="" size="16" maxlength="16"/><br>
+      
+       <legend>CÓDIGO DE CARTÃO: <input type="text" name="codigo" placeholder="" size="3" maxlength="3"/>     </legend> 
+       </fieldset> 
+         <a href="index.html"><input type="button" onclick="funcao1()" value="Concluir pedido" /></a>
+    </form> 
+    
+    
+</body>
+</html>
