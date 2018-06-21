@@ -155,11 +155,11 @@ section#page-text {
 	text-align: center;
 }
 
-section#page-text:before, section#page-text:after { content: "~"; display: table; }
+section#page-text:before, section#page-text:after { content: "a"; display: table; color: white; }
 section#page-text:after { clear: both; }
 section#page-text { *zoom: 1; }
 
-#container > div:before, #container > div:after { content: "~"; display: table; }
+#container > div:before, #container > div:after { content: "a"; display: table; color: white;}
 #container > div:after { clear: both; }
 #container > div { *zoom: 2; }
 
@@ -413,7 +413,7 @@ section#page-prop >h1{
 section#page-prop > h1:before,
 section#page-prop > h1:after {
 	content: '~';
-	padding: 0.0.4em;
+	padding: 0 0.4em;
 	color: #BABABA;
     
 }
