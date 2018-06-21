@@ -108,7 +108,8 @@ header div#logo {
 	padding-top: 0.9em;
 	font-size: 2em;
 	font-style: italic;
-	font-family: Georgia;
+    font-style: oblique;
+	font-family: Franklin Gothic Heavy Lefty Regular;
 }
 
 header nav {
@@ -402,4 +403,3 @@ section#cel7 img:hover{
   -ms-transform: scale(1.1);
   transform: scale(2.3);
 }
-
