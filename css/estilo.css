@@ -413,7 +413,7 @@ section#page-prop >h1{
 section#page-prop > h1:before,
 section#page-prop > h1:after {
 	content: '~';
-	padding: 0 0.4em;
+	padding: 0.0.4em;
 	color: #BABABA;
     
 }
